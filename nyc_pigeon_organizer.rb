@@ -45,8 +45,9 @@ def nyc_pigeon_organizer(data)
 
 
               if pigeon_list[name].has_key?(element)
-                pigeon_list[name][element] << attribute
                 binding.pry
+                pigeon_list[name][element] << attribute
+
               elsif pigeon_list.has_key?(name)
                 pigeon_list[name] = pigeon_list[name].merge({element=> [attribute]})
                 binding.pry
