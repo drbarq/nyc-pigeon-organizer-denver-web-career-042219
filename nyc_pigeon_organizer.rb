@@ -50,7 +50,7 @@ end
 
 def nyc_pigeon_organizer(data)
 
-  pigeon_list = Hash.new
+  pigeon_list = {}
 
   data.each do |element, element_value|
     element_value.each do |attribute, attribute_value|
