@@ -22,8 +22,8 @@ def nyc_pigeon_organizer(data)
 
 
   name_array.each do |name|
-    data.each do |element, element_value|
-      element_value.each do |attribute, attribute_value|
+    data.map do |element, element_value|
+      element_value.map do |attribute, attribute_value|
         attribute_value.find do |names|
           if names == name
 
