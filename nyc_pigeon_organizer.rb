@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
 
   name_array = Array.new
 
-  
+
 
 
 
@@ -41,7 +41,7 @@ def nyc_pigeon_organizer(data)
 
           end
         end
-        
+
       end
       puts pigeon_list
        pigeon_list
