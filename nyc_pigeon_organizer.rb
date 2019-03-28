@@ -69,17 +69,11 @@ def nyc_pigeon_organizer(data)
 
         if !pigeon_list[name][element].include?(attribute)
           pigeon_list[name][element] << attribute.to_s
-
         end
-
-
-
-
-         # shovels over the name and then sets the variable equal to the uniq value
-      #  name_array << names
-      #  name_array = name_array.uniq
+        
       end
     end
+  end 
     pigeon_list
   end
 
@@ -109,4 +103,4 @@ def nyc_pigeon_organizer(data)
 binding.pry
 =end
 
-end
+
