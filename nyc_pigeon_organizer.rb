@@ -66,8 +66,8 @@ def nyc_pigeon_organizer(data)
 
 
          # shovels over the name and then sets the variable equal to the uniq value
-        name_array << names
-        name_array = name_array.uniq
+      #  name_array << names
+      #  name_array = name_array.uniq
       end
     end
   end
