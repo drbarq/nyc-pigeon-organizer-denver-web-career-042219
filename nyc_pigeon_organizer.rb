@@ -70,7 +70,7 @@ def nyc_pigeon_organizer(data)
         if !pigeon_list[name][element].include?(attribute)
           pigeon_list[name][element] << attribute.to_s
         end
-        
+
       end
     end
   end 
@@ -102,5 +102,3 @@ def nyc_pigeon_organizer(data)
   end
 binding.pry
 =end
-
-
