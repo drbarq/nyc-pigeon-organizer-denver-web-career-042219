@@ -43,10 +43,6 @@ def nyc_pigeon_organizer(data)
         attribute_value.find do |names|
           if names == name
 
-
-
-
-
               if pigeon_list[name].has_key?(element)
                 binding.pry
                 pigeon_list[name][element] << attribute
@@ -58,7 +54,7 @@ def nyc_pigeon_organizer(data)
                 pigeon_list[name]= {element=> [attribute]}
                 binding.pry
 
-
+              end 
 
             end
 
