@@ -49,7 +49,7 @@ end
 
 #this is slick, it builds it step by step. using boolean and closed if statements to step through the hash.  it iliminates the need for
 #an addtional name array like I Was building
-#does this answer only work best for the way this data is structured?  
+#does this answer only work best for the way this data is structured?
 
 def nyc_pigeon_organizer(data)
 
@@ -70,7 +70,7 @@ def nyc_pigeon_organizer(data)
 
         if !pigeon_list[names][element].include?(attribute)
           pigeon_list[names][element] << attribute.to_s
-          binding.pry
+        #  binding.pry
         end
 
       end
