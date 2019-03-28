@@ -65,7 +65,7 @@ def nyc_pigeon_organizer(data)
 
         if !pigeon_list[name].has_key?(element)
           pigeon_list[name][property] = []
-        end 
+        end
 
         end
 
