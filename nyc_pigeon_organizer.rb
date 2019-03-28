@@ -1,6 +1,9 @@
 require 'pry'
 
 
+#first get each unique name in name_array 
+#second build new hash
+
 def nyc_pigeon_organizer(data)
 
   pigeon_list = Hash.new
