@@ -32,7 +32,7 @@ def nyc_pigeon_organizer(data)
 
 
           #  pigeon_list[name] = {element=> attribute}.merge.pigeon_list[name]
-           pigeon_list[name]= {element=> [attribute]}.merge(pigeon_list[name])
+           pigeon_list[name]= pigeon_list[name])
 
           end
         end
