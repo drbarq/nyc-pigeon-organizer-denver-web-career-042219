@@ -60,7 +60,7 @@ def nyc_pigeon_organizer(data)
         if !pigeon_list.has.key?(name)
           pigeon_list[name] = {}
           binding.pry
-
+        end 
 
 
 
