@@ -100,7 +100,7 @@ end
 binding.pry
 =end
 
-
+=begin
 def nyc_pigeon_organizer(data)
   # write your code here!
   new_hash = {}
@@ -123,3 +123,4 @@ def nyc_pigeon_organizer(data)
   end
   new_hash
 end
+=end
