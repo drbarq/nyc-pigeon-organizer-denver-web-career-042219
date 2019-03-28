@@ -85,7 +85,7 @@ def nyc_pigeon_organizer(data)
         end
       end
     end
-    pigeon_list.merge(name_hash)
+    pigeon_list << name_hash
     binding.pry
   end
 
