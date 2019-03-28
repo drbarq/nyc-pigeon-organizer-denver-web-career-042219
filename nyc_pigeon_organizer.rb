@@ -73,12 +73,12 @@ def nyc_pigeon_organizer(data)
       element_value.each do |attribute, attribute_value|
         attribute_value.each do |names|
           if names == name
-            if pigeon_list.length > 0 && pigeon_list[name].has_key?(element)
-              pigeon_list[name][element] << attribute.to_s
-            elsif pigeon_list.has_key?(name)
-              pigeon_list[name] = pigeon_list[name].merge({element=> [attribute.to_s]})
+            if name_hash.length > 0 && name_hash[name].has_key?(element)
+              name_hash[name][element] << attribute.to_s
+            elsif name_hash.has_key?(name)
+              name_hash[name] = name_hash[name].merge({element=> [attribute.to_s]})
             else
-              pigeon_list[name]= {element=> [attribute.to_s]}
+              name_hash[name]= {element=> [attribute.to_s]}
             end
           end
         end
