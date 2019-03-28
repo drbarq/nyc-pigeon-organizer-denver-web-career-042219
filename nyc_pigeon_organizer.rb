@@ -25,7 +25,7 @@ def nyc_pigeon_organizer(data)
       element_value.map do |attribute, attribute_value|
         attribute_value.find do |names|
           binding.pry
-          if names == name && pigeon_list.length > 0
+          if names == name && pigeon_list.length >= 0
             binding.pry
 
             if pigeon_list[name].has_key?(element)
