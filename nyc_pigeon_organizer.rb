@@ -2,16 +2,15 @@ require 'pry'
 
 
 def nyc_pigeon_organizer(data)
-  
+
   pigeon_list = Hash.new
   name_array = Array.new
-  
+
   data.each do |element, element_value|
     element_value.each do |attribute, attribute_value|
       attribute_value.each do |names| # shovels over the name and then sets the variable equal to the uniq value
         name_array << names
         name_array = name_array.uniq
-
       end
     end
   end
