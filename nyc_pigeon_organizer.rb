@@ -68,7 +68,7 @@ def nyc_pigeon_organizer(data)
 
   name_array.each do |name|
     name_hash = Hash.new
-      binding.pry
+  #    binding.pry
     data.each do |element, element_value|
       element_value.each do |attribute, attribute_value|
         attribute_value.each do |names|
