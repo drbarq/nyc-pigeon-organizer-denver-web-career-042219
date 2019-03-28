@@ -18,6 +18,8 @@ def nyc_pigeon_organizer(data)
     end
   end
 
+  binding.pry
+
 # this works and builds the name and info but then ends, doesnt do the whole array of names
 
   name_array.each do |name|
