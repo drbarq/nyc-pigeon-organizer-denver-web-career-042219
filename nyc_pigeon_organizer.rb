@@ -28,11 +28,11 @@ def nyc_pigeon_organizer(data)
         attribute_value.each do |names|
           if names == name
             if pigeon_list.length > 0 && pigeon_list[name].has_key?(element)
-              pigeon_list[name][element] << attribute
+              pigeon_list[name][element] << attribute.to_s
             elsif pigeon_list.has_key?(name)
-              pigeon_list[name] = pigeon_list[name].merge({element=> [attribute]})
+              pigeon_list[name] = pigeon_list[name].merge({element=> [attribute.to_s]})
             else
-              pigeon_list[name]= {element=> [attribute]}
+              pigeon_list[name]= {element=> [attribute.to_s]}
               binding.pry
             end
 
