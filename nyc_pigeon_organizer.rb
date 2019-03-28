@@ -64,11 +64,11 @@ def nyc_pigeon_organizer(data)
         end
 
         if !pigeon_list[name].has_key?(element)
-          pigeon_list[name][property] = []
+          pigeon_list[name][element] = []
         end
 
-        if !pigeon_list[name][property].include?(attribute)
-          pigeon_list[name][property] << attribute.to_s 
+        if !pigeon_list[name][element].include?(attribute)
+          pigeon_list[name][element] << attribute.to_s 
 
         end
 
