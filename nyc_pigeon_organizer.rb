@@ -20,15 +20,6 @@ def nyc_pigeon_organizer(data)
     end
   end
 
-
-
-=begin
-
-=end
-
-
-
-
   name_array.each do |name|
     data.map do |element, element_value|
       element_value.map do |attribute, attribute_value|
