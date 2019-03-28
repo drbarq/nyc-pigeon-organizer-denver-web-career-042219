@@ -47,6 +47,8 @@ def nyc_pigeon_organizer(data)
 end
 =end
 
+#this is slick, it builds it step by step. using boolean and closed if statements to step through the hash.  it iliminates the need for
+#an addtional name array like I Was building
 
 def nyc_pigeon_organizer(data)
 
