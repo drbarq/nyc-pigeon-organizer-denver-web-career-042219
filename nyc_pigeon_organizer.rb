@@ -47,7 +47,7 @@ def nyc_pigeon_organizer(data)
 end
 =end
 
-
+=begin
 def nyc_pigeon_organizer(data)
 
   pigeon_list = Hash.new
@@ -78,7 +78,7 @@ def nyc_pigeon_organizer(data)
   pigeon_list
   binding.pry
   end
-
+=end 
 
 
 # this works and builds the name and info but then ends, doesnt do the whole array of names
