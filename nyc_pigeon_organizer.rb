@@ -61,12 +61,12 @@ def nyc_pigeon_organizer(data)
         if !pigeon_list.has_key?(name)
           binding.pry
           pigeon_list[name] = {}
-        end 
+        end
 
         if !pigeon_list[name].has_key?(element)
           pigeon_list[name][property] = []
-        end 
-        
+        end
+
         if !pigeon_list[name][property].include?(attribute)
           new_hash[name][property] << attribute.to_s 
 
