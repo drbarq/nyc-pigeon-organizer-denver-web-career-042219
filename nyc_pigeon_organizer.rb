@@ -46,11 +46,4 @@ def nyc_pigeon_organizer(data)
     end
     return pigeon_list
   end
-
-
-
-
-
-
-
 end
