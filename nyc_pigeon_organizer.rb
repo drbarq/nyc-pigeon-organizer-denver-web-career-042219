@@ -8,6 +8,8 @@ def nyc_pigeon_organizer(data)
 
   name_array = Array.new
 
+  
+
 
 
   data.each do |element, element_value|
