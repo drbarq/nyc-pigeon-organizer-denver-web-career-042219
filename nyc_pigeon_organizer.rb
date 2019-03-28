@@ -24,7 +24,7 @@ def nyc_pigeon_organizer(data)
   name_array.each do |name|
     data.each do |element, element_value|
       element_value.each do |attribute, attribute_value|
-        attribute_value.find do |names|
+        attribute_value.each do |names|
           if names == name
             if pigeon_list.length > 0 && pigeon_list[name].has_key?(element)
               pigeon_list[name][element] << attribute
