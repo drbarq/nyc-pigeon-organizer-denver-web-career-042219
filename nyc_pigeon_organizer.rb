@@ -44,7 +44,7 @@ def nyc_pigeon_organizer(data)
 
       end
     end
-puts pigeon_list
+return pigeon_list
   end
 
 
