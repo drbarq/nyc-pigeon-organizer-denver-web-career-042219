@@ -35,7 +35,7 @@ def nyc_pigeon_organizer(data)
               pigeon_list[name]= {element=> [attribute.to_s]}
             end
           
-            
+
 
           end
         end
