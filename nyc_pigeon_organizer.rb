@@ -80,6 +80,7 @@ def nyc_pigeon_organizer(data)
       #  name_array = name_array.uniq
       end
     end
+    pigeon_list
   end
 
 
