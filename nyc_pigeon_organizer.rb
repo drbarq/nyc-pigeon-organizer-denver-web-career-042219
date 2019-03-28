@@ -26,7 +26,7 @@ def nyc_pigeon_organizer(data)
       element_value.map do |attribute, attribute_value|
         attribute_value.find do |names|
           if names == name
-          
+
 
 
 
