@@ -51,6 +51,7 @@ end
 def nyc_pigeon_organizer(data)
 
   pigeon_list = Hash.new
+  name_hash = Hash.new
   name_array = Array.new
 
   data.each do |element, element_value|
@@ -67,7 +68,7 @@ def nyc_pigeon_organizer(data)
 # this works and builds the name and info but then ends, doesnt do the whole array of names
 
   name_array.each do |name|
-    name_hash = Hash.new
+
   #    binding.pry
     data.each do |element, element_value|
       element_value.each do |attribute, attribute_value|
