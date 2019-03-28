@@ -21,7 +21,7 @@ def nyc_pigeon_organizer(data)
   end
 
 # this works and builds the name and info but then ends, doesnt do the whole array of names
-#need to convert from symbol to string
+
   name_array.each do |name|
     data.each do |element, element_value|
       element_value.each do |attribute, attribute_value|
@@ -39,7 +39,7 @@ def nyc_pigeon_organizer(data)
         end
       end
     end
-  #  binding.pry
+    binding.pry
     return pigeon_list
   end
 
