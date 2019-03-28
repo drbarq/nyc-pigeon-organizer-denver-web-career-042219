@@ -26,7 +26,7 @@ def nyc_pigeon_organizer(data)
       element_value.map do |attribute, attribute_value|
         attribute_value.find do |names|
           if names == name
-            binding.pry
+          
 
 
 
@@ -39,7 +39,7 @@ def nyc_pigeon_organizer(data)
               binding.pry
 
 
-            end 
+            end
 
           #  pigeon_list[name] = {element=> attribute}.merge.pigeon_list[name]
         #   pigeon_list[name]= pigeon_list[name])
