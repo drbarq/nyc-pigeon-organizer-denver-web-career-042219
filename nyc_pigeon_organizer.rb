@@ -32,6 +32,7 @@ def nyc_pigeon_organizer(data)
               pigeon_list[name] = pigeon_list[name].merge({element=> [attribute]})
             else
               pigeon_list[name]= {element=> [attribute]}
+              binding.pry
             end
 
           end
