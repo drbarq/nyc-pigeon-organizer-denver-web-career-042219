@@ -1,7 +1,7 @@
 require 'pry'
 
 
-#first get each unique name in name_array 
+#first get each unique name in name_array
 #second build new hash
 
 def nyc_pigeon_organizer(data)
