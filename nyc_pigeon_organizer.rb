@@ -58,8 +58,9 @@ def nyc_pigeon_organizer(data)
     element_value.each do |attribute, attribute_value|
       attribute_value.each do |names|
         if !pigeon_list.has.key?(name)
-          pigeon_list[name] = {}
           binding.pry
+          pigeon_list[name] = {}
+
         end
 
 
